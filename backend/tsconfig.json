@@ -1,12 +1,24 @@
+// {
+//   "compilerOptions": {
+//     "target": "es2016",
+//     "module": "commonjs",
+//     "rootDir": "./",
+//     "outDir": "./dist",
+//     "esModuleInterop": true,          
+//     "forceConsistentCasingInFileNames": true,
+//     "strict": true,
+//     "skipLibCheck": true
+//   }
+// }
+
+
 {
   "compilerOptions": {
-    "target": "es2016",
-    "module": "commonjs",
-    "rootDir": "./",
-    "outDir": "./dist",
-    "esModuleInterop": true,          
-    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "target": "ES2023",
     "strict": true,
-    "skipLibCheck": true
+    "esModuleInterop": true,
+    "ignoreDeprecations": "6.0",
   }
 }
